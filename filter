@@ -7,5 +7,5 @@ function filterfunc(a, filterFunc) {
         if(result)             
         filterArr.push(a[i]);}   
         return filterArr;}
-        const oddArr2 = filterfunc(a, num => num % 2 === 0);
-        console.log(oddArr2);
+ const oddArr2 = filterfunc(a, num => num % 2 === 0);
+ console.log(oddArr2);
